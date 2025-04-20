@@ -10,7 +10,6 @@ void main(List<String> arguments) {
   } else {
     print('steam');
   }
-
   int number = int.tryParse(input) ?? 0;
   int result = number > 0 ? number : number * -1;
   print(result);
